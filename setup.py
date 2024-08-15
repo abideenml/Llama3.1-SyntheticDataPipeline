@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name="Llama",
+    name="Llama3.1-SyntheticDataPipeline",
     version="0.1",
     packages=find_packages(),
     author="abideenml",
@@ -9,7 +9,7 @@ setup(
     description="LLama 3.1 synthetic data generation pipeline.",
     long_description=open("README.md").read(),
     long_description_content_type="text/markdown",
-    url="https://github.com/abideenml/llm.pth",
+    url="https://github.com/abideenml/Llama3.1-SyntheticDataPipeline",
     install_requires=[
         "transformers",
         "langchain",
